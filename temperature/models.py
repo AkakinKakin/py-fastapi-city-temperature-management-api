@@ -1,7 +1,8 @@
 from sqlalchemy import Column, Integer, ForeignKey, DateTime, Float
 from sqlalchemy.orm import relationship
 
-from datebase import Base
+from database import Base
+
 
 class Temperature(Base):
     __tablename__ = "temperature"
